@@ -9,35 +9,33 @@
 
 
 import UIKit
-    
+
 class ViewController: UIViewController {
-    
+
     // this is the fixed text
     // it starts blank but will say "In Lumpy Cordoza Years That's;"
-    
+
     @IBOutlet weak var lumpYearA: UILabel!
-    
-    
+
     // this is where the calulated age displays
-    
     @IBOutlet weak var lumpYearB: UILabel!
-    
+
     // this is where you enter the text in human years
     @IBOutlet weak var ageTextField: UITextField!
-    
-    
+
     //age converson button
     @IBAction func button(sender: AnyObject) {
-        
-        //    print("button pressed")
-        //    placeHolder1.text = "In Lumpy Cordoza years that's;"
-        //    placeHolder2.text = "200"
-        
+
+        print("button pressed")
+        ageTextField.resignFirstResponder()
+        lumpYearA.text = "In Lumpy Cordoza years that's;"
+        lumpYearB.text = "200"
+
     }
-    
-    
-    
-    
+
+
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -48,6 +46,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
 }
 
