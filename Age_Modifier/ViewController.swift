@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     @IBAction func button(sender: AnyObject) {
         
         //    print("button pressed")
-        //    placeHolder1.text = "In Lumpy Cordoza Years That's;"
+        //    placeHolder1.text = "In Lumpy Cordoza years that's;"
         //    placeHolder2.text = "200"
         
     }
