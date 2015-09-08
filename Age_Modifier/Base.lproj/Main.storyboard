@@ -64,6 +64,8 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="ageTextField" destination="X7L-NZ-cKv" id="fjR-Kq-CcN"/>
+                        <outlet property="flashLabel" destination="fo3-1v-9Mz" id="QxN-L3-H00"/>
+                        <outlet property="image" destination="D2G-sF-DHZ" id="Wvo-MO-0bY"/>
                         <outlet property="lumpYearA" destination="tuu-CO-RxD" id="NMf-lJ-Z5Z"/>
                         <outlet property="lumpYearB" destination="GBZ-FE-81P" id="auz-FQ-ev7"/>
                     </connections>
